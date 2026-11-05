@@ -1,0 +1,24 @@
+h2 {
+  text-align: center;
+  color: #263b80;
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.quote-box {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #f4f6fb;
+  border-left: 5px solid #263b80;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.quote-box p {
+  margin: 0;
+  line-height: 1.6;
+}

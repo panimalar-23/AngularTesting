@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { ProductListComponent } from './product-list/product-list';
+import { QuoteGeneratorComponent } from './quote-generator/quote-generator';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ProductListComponent],
+  imports: [QuoteGeneratorComponent],
   template: `
-    <h1>Welcome to Our E-Commerce Store</h1>
-    <app-product-list></app-product-list>
+    <h1>Unit Testing a Standalone Component</h1>
+    <app-quote-generator></app-quote-generator>
   `,
   styleUrl: './app.css'
 })
